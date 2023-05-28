@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Tajawal:wght@200&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;}
+
+
+.container{
+    padding:20;
+}
+header{
+    background-image: url(./images/bg-hero-desktop.svg);
+    background-color: aliceblue;
+}
+.header-1{
+    
+    height: auto;
+    margin-bottom: 90px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    
+}
+.header-1 img{
+    height: 40px;
+}
+ .header-1 button{
+    width: 200px;
+    height: 40;
+    border-radius: 20px ;
+    box-shadow: 2px 3px 7px 0px;
+    border: #ffff;
+    background-color: #ffff;
+    cursor: pointer;
+}
+
+ .header-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+}
+
+ .header-2 .left h2{
+    width: 12em;
+    margin-bottom: 20px;
+}
+ .header-2 .left p{
+    width: 481px;
+    margin-bottom: 20px;
+}
+ .header-2 .left button{
+    border-radius: 20px;
+    border: #ff9cbb;
+    height: 40px;
+    width: 17em;
+    cursor: pointer;
+    background-color: #ff9cbb;
+    color: #ffff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+ .header-2 .right{
+    width: 50%;
+}
+ .header-2 .right img{
+    width: 35em;
+    height: 333px;
+}
+
+/* FORM */
+.form1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 2px 1px 6px -2px;
+    width: 990px;
+    margin : auto;
+    margin-bottom: 40px;
+}
+.form1 .text h2{
+    font-family: system-ui;
+    font-weight: 500;
+}
+.form1 .text {
+    width: auto;
+}
+
+.form1 .image img{
+    width: 25em;
+    height: 222px;
+    padding: 0 50 0 50;
+}
+
+/* FOOTER */
+
+.form2{
+    background-color: #ffff;
+    backface-visibility: hidden;
+    border-radius: 20px;
+    border: none;
+    display: grid;
+    justify-content: center;
+    align-items: center ;
+    width: 600px;
+    margin: auto;
+    padding: 40px;
+    box-shadow: 2px 1px 6px -2px;
+    
+}
+.form2 h2{
+    font-family: system-ui;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.form2 button{
+    border-radius: 30px;
+    border: #ff9cbb;
+    width: 230;
+    padding: 20px;
+    font-size: 15;
+    margin: auto;
+    cursor: pointer;
+    background-color: #ff9cbb;
+    color: #ffff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* footer */
+.footer{
+    height: auto;
+    background-color: rgb(24, 41, 56);
+    margin-top: -60;
+    padding: 0 40 0 40;
+    display: flex;
+    justify-content: space-between;
+}
+
+.f-left{
+    color: #ffff;
+    padding-top: 100;
+    width: 443px;
+}
+
+.f-left img{
+    padding: 15px;
+}
+.f-left .icon i{
+    float: left;
+}
+.f-left .icon p{
+    padding-left: 40px;
+    padding-bottom: 10;
+    margin: auto;
+}
+
+.footer .f-centre{
+    padding-top: 100;
+    width:276px ;
+    display: flex;
+    justify-content: space-between;
+    margin-left: -160px;
+    align-items: center;
+}
+.footer .f-centre a{
+    color: #ffff;
+    text-decoration: none;
+    
+}
+.footer .f-centre a:hover{
+    text-decoration: underline;
+}
+.footer .f-right{
+    color: #ffff;
+    padding-top: 100;
+    width:auto ;
+    font-size:30;
+    display: flex;
+}
+.footer .f-right i {
+    padding: 10px;
+}
+.footer .f-right i:hover {
+    color: #ff9cbb ;
+    cursor: pointer;
+}
+
+.Copyright{
+    background-color: rgb(24, 41, 56);
+    color: #ffff;
+    text-align: right;
+    padding: 20px;
+}
+
+@media (max-width:600px){
+    header{
+        margin-bottom: 90px;
+        width: auto;
+        text-align: center;
+    }
+    header .header-1 img{
+        width: 25%;
+    }
+    header .header-1 button{
+        width: 90px;
+        border-radius: 20px ;
+        box-shadow: 2px 3px 7px 0px;
+        border: #ffff;
+        background-color: #ffff;
+        cursor: pointer;
+        position: -ms-page;
+    }
+        
+     header .header-2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    header .header-2 .left h2{
+        width: 12em;
+        margin-bottom: 20px;
+        text-align: center;
+        margin: auto;
+    }
+    header .header-2 .left p{
+        width: 324px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    header .header-2 .left button{
+        border-radius: 20px;
+        border: #ff9cbb;
+        height: 40px;
+        width: 17em;
+        cursor: pointer;
+        background-color: #ff9cbb;
+        color: #ffff;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    header .header-2 .right{
+        width: auto;
+    }
+    header .header-2 .right img{
+        width: max-content;
+        height: 200px;
+        margin: 20px 0 20px 0;
+    }
+
+    /* FORM */
+    
+    .form1{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+        overflow: hidden;
+        font-size: 10px;
+        text-align: center;
+    }
+    .form1 .text h2,p{
+        flex-direction: column;
+        justify-content: center;
+        padding: 10px;
+    }
+    .form1 .image {
+        height: auto;
+        z-index: -1;
+    }
+    .form2{
+        width: auto;
+        font-size: 10;
+        flex-direction: column;
+        justify-content: center;
+        overflow: hidden;
+    }
+    .form2 h2,button{
+        width: max-content;
+    }
+
+    .footer{
+        flex-direction: column;
+        justify-content: center;
+        padding: 10px;
+    }
+    .footer .f-left{
+        width: auto;
+    }
+    .footer .f-centre{
+        display: contents;
+        margin-top: 10px;
+    }
+    .footer .f-right{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .Copyright{
+        background-color: rgb(24, 41, 56);
+        color: #ffff;
+        text-align: center;
+        padding: 20px;
+    }
+
+
+}
